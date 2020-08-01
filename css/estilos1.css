@@ -1,0 +1,131 @@
+/**{
+margin:0px;
+padding:0px;}*/
+body{
+	background:#F1F1F1;
+	font-family:"Arial";
+	/*background: url(../imagenes/escudo1.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;*/}
+
+	header {
+		text-align: center;
+	}
+
+header,.main,footer{
+background:#F1F1F1;
+width:90%;
+margin:2% auto;
+/**text-align: center;**/}
+
+
+h3{
+	padding: 5px;
+	background:#cccccc;
+	color:#000000;}
+
+li a{
+
+	background:#CCCCCC;
+	color:#FFFFFF;
+	width:200px
+	float:left;
+}
+
+a{
+	text-decoration:none;}
+
+a:link{
+	color:blue;}
+
+a:hover{
+	text-decoration:underline;
+	color:#000;
+/*background:#ccc;*/}
+
+.im1{
+	width:30%;
+	float:left;
+	background:#F1F1F1;}
+
+.im2{
+	width:30%;
+	float:right;
+	background:#F1F1F1;}
+
+img{
+	margin: auto;
+	display:block;
+/*border-radius:20%;
+box-shadow: 5px 5px 0px #ccc;*/
+}
+
+.menu{
+	width:100%;
+	background:#ccc;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu li{
+	display: inline-block;}
+
+.menu li a{
+	padding:10px 60px;
+	display:inline-block;}
+
+.menu li a:hover{
+	background:#FFF;
+	color:#000;}
+
+.main .articles article{
+	padding:20px;
+	background:#FFFFFF;
+	margin-bottom:20px;}
+
+aside{
+	background:#FFFFFF;}
+
+form{
+	position:center;
+	text-align:center;
+	width:25%;
+	border: 1px solid #CCC;
+	margin:20px;
+	padding:20px;}
+
+label{
+	font-size:12px;
+	width:100%;
+	display:block;}
+
+textarea{
+	resize:vertical;
+	min-height:100px;
+	max-height:200px;
+}
+
+input, textarea{
+	margin-bottom:20px;
+	width:100%;
+	padding:5px;
+	border:1px solid #000;}
+
+input:focus, textarea:focus{
+	border:1px solid #FFF;}
+
+input[type="submit"]{
+	margin-bottom:0px;
+	background:#A9A9A9;
+	color:#FFFFFF;
+	border:none;}
+
+input[type="submit"]:hover{
+	background:#C1C1C1;
+	color:#000000;
+	cursor:pointer;}
+
+footer{
+	text-align:center;}
